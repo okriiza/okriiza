@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/okriizam/
+    - /bin/cp -r * $DEPLOYPATH #copy all from root
+    - /bin/cp -r ./public/* $DEPLOYPATH/public_html/
+    - /bin/cp -r ./public/* $DEPLOYPATH/blog.okriiza.my.id/
+
+    # - /bin/cp ./public/js/*.js $DEPLOYPATH/public_html/js
+    # - /bin/cp ./public/css/*.css $DEPLOYPATH/public_html/css

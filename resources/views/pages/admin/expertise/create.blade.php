@@ -1,0 +1,44 @@
+@extends('layouts.admin')
+
+@section('content')
+<div class="container-fluid">
+   @if ($errors->any())
+      <div class="alert alert-danger">
+         <ul>
+               @foreach ($errors->all() as $error )
+                  <li>{{ $error }}</li>
+               @endforeach
+         </ul>
+      </div>
+   @endif
+   <div class="row justify-content-center">
+      <div class="col-md-6 ">
+         <div class="card shadow border-left-primary">
+            <div class="card-body">
+               <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                  <h1 class="h3 mb-0 text-gray-800">Tambah Expertise</h1>
+                  <a href="{{ route('expertise.index') }}" class="btn btn-sm btn-warning shadow-sm">
+                     <i class="fas fa-angle-double-left fa-sm "></i> Kembali
+                  </a>
+               </div>
+                  <form action="{{ route('expertise.store') }}" method="post" enctype="multipart/form-data">
+                     @csrf
+                     
+                     <div class="form-group">
+                        <label for="">Expertise</label>
+                        <input type="text" name="name" class="form-control" value="{{ old('name')}}">
+                        </select> 
+                     </div>
+                     <button type="submit" class="btn btn-sm btn-primary btn-icon-split">
+                        <span class="icon text-white-50">
+                           <i class="fas fa-save"></i>
+                        </span>
+                        <span class="text">Simpan</span>
+                     </button>
+                  </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+@endsection
