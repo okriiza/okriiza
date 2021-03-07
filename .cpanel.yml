@@ -2,7 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/okriizam/
-    - /bin/cp -r * $DEPLOYPATH #copy all from root
+    - /bin/cp -r * $DEPLOYPATH/okriiza/ #copy all from root
     - /bin/cp -r ./public/* $DEPLOYPATH/public_html/
     - /bin/cp -r ./public/* $DEPLOYPATH/blog.okriiza.my.id/
 
