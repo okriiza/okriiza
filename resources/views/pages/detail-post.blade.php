@@ -95,7 +95,7 @@
                      @endforeach
                   </div>
                </div>
-               <div class="card border-0 shadow-sm rounded-post py-3 px-3">
+               <div class="card border-0 shadow-sm rounded-post py-3 px-3 mb-3">
                   <h5 class="title-related-post">Komentar</h5>
                   @include('includes.disqus')
                </div>

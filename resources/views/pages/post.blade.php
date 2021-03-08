@@ -8,7 +8,7 @@
    <section class="section-post">
       <div class="container">
          <div class="row">
-            <div class="col-lg-8 ">
+            < class="col-lg-8 ">
                @if ($items->count())
                <div class="card mb-3 rounded-post border-0 shadow-sm">
                   <div class="card rounded-post border-0 shadow-sm">
@@ -158,9 +158,8 @@
                   @endforeach
                </div>
                @endif
-               <div class="card py-2 px-2 border-0 shadow-sm rounded-lg mb-3">
-                  {{ $items->links() }}
-               </div>
+               
+               {{ $items->links() }}
 
             </div>
             <div class="col-lg-4">

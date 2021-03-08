@@ -106,10 +106,9 @@
                   </div>
                   @endforeach
                </div>
-               <div class="card py-2 px-2 border-0 shadow-sm rounded-lg mb-3">
-                  {{ $articles->links() }}
-               </div>
-               >
+               
+               {{ $articles->links() }}
+               
             </div>
             <div class="col-lg-4">
                {{-- <div class="card border-0 shadow-sm rounded-post p-3 mb-4">
