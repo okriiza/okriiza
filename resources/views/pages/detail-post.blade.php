@@ -89,7 +89,7 @@
                   <div class="row">
                      @foreach ($related as $item)
                         <div class="col-sm-6 col-md-4 mb-2">
-                           <img src="{{ Storage::url($item->thumbnail)}}" width="215" height="121" class="rounded-post rounded-post-img mb-2" alt="{{ $item->slug }}" loading="lazy" class="lazyload">
+                           <img src="{{ Storage::url($item->thumbnail)}}" style="width: 215px; height: 121px;" class="rounded-post rounded-post-img mb-2" alt="{{ $item->slug }}" loading="lazy" class="lazyload">
                            <a href="{{ route('detail',$item->slug)}}" class="text-related-post">{{ $item->title }}</a>
                         </div>
                      @endforeach
@@ -116,7 +116,7 @@
                      @forelse ($recent as $item)
                         <div class="col-sm-12 col-md-6 col-lg-12">
                            <div class="media mt-2">
-                              <img src="{{ Storage::url($item->thumbnail) }}" width="100" height="70" class="rounded-post align-self-center rounded-trending-img mr-3"  alt="{{ $item->slug }}" loading="lazy" class="lazyload">
+                              <img src="{{ Storage::url($item->thumbnail) }}" style="width: 100px; height: 70px;" class="rounded-post align-self-center rounded-trending-img mr-3"  alt="{{ $item->slug }}" loading="lazy" class="lazyload">
                               <div class="media-body">
                                  <a href="{{ route('detail',$item->slug) }}" class="text-trending">{{ $item->title }}</a> <br>
                               </div>
@@ -125,7 +125,7 @@
                         </div>
                      @empty
                         <div class="text-center mx-auto col-sm-6 col-md-4 mb-2 mt-5 ">
-                           <img src="{{ url('themes/frontend/assets/image/no-data.svg') }}" alt="no-data" width="150" height="auto" class="mb-3">
+                           <img src="{{ url('themes/frontend/assets/image/no-data.svg') }}" alt="no-data" style="width: 150px; " height="auto" class="mb-3">
                            <p><small class="font-weight-bold">Data Tidak Ditemukan</small></p>
                         </div>
                      @endforelse
@@ -161,7 +161,7 @@
                      @foreach ($random as $item)
                         <div class="col-sm-12 col-md-6 col-lg-12">
                            <div class="media mt-2">
-                              <img src="{{ Storage::url($item->thumbnail) }}" width="100" height="70" class="rounded-post align-self-center rounded-trending-img mr-3"  alt="{{ $item->slug }}" loading="lazy" class="lazyload">
+                              <img src="{{ Storage::url($item->thumbnail) }}" style="width: 100px; height: 70px;"class="rounded-post align-self-center rounded-trending-img mr-3"  alt="{{ $item->slug }}" loading="lazy" class="lazyload">
                               <div class="media-body">
                                  <a href="{{ route('detail',$item->slug) }}" class="text-trending">{{ $item->title }}</a> <br>
                               </div>

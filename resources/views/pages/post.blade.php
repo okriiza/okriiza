@@ -140,7 +140,7 @@
                   <div class="col-sm-12 d-md-none">
                      <div class="card mb-2 rounded-post border-0 shadow-sm">
                         <div class="media p-2">
-                           <img src="{{ Storage::url($item->thumbnail) }}" width="120" height="80" class="mr-3 rounded-post" alt=""  alt="{{ $item->slug }}" loading="lazy" class="lazyload">
+                           <img src="{{ Storage::url($item->thumbnail) }}" style="width: 120px; height: 80px;"class="mr-3 rounded-post"  alt="{{ $item->slug }}" loading="lazy" class="lazyload">
                            <div class="media-body">
                               {{-- <h5 class="title-post-sm"></h5> --}}
                               <a href="{{ route('detail',$item->slug) }}" class="title-post-sm">{{ $item->title }}</a>
@@ -179,7 +179,7 @@
                      @foreach ($random as $item)
                         <div class="col-sm-12 col-md-6 col-lg-12">
                            <div class="media mt-2">
-                              <img src="{{ Storage::url($item->thumbnail) }}" width="100" height="70" class="rounded-post align-self-center rounded-trending-img mr-3"  alt="{{ $item->slug }}" loading="lazy" class="lazyload">
+                              <img src="{{ Storage::url($item->thumbnail) }}" style="width: 100px; height: 70px;" class="rounded-post align-self-center rounded-trending-img mr-3"  alt="{{ $item->slug }}" loading="lazy" class="lazyload">
                               <div class="media-body">
                                  <a href="{{ route('detail',$item->slug) }}" class="text-trending">{{ $item->title }}</a> <br>
                               </div>

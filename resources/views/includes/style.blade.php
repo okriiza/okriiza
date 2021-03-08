@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="https://assets.okriiza.my.id/themes/frontend/assets/libraries/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://assets.okriiza.my.id/themes/frontend/assets/libraries/fontawesome/css/all.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 <link rel="stylesheet" href="https://assets.okriiza.my.id/themes/frontend/assets/style/main.css">
 <link rel="stylesheet" href="https://assets.okriiza.my.id/themes/frontend/assets/libraries/aos/css/aos.cs">
 <link rel="stylesheet" href="https://assets.okriiza.my.id/themes/frontend/assets/libraries/magnific-popup/magnific-popup.css">

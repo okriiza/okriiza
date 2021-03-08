@@ -17,7 +17,7 @@
                <a href="#about-me" class="btn btn-bg-biru-outline">CONTACT</a>
          </div>
          <div class="col-md-6">
-            <img src="{{ url('themes/frontend/assets/image/header.png')}}" class="img-fluid" width="540" height="350">
+            <img src="{{ url('themes/frontend/assets/image/header.png')}}" class="img-fluid"  style="width: 540px; height: 350px;">
          </div>
       </div>
    </div>
@@ -106,7 +106,7 @@
             @foreach ($artikel_data as $artikel)
             <div class="col-md-4 mb-3">
                <div class="card bg-dark text-white">
-                  <img src="{{ Storage::url($artikel->thumbnail)}}" class="card-img-top" height="200">
+                  <img src="{{ Storage::url($artikel->thumbnail)}}" class="card-img-top" style=" height: 200px;">
                   <div class="card-img-overlay d-flex align-items-start flex-column bd-highlight mb-3">
                      <h5 class="mb-auto card-title btn btn-sm bg-kuning rounded-pill ">{{ date_format($artikel->created_at,"d M Y")}}</h5>
                      @php
