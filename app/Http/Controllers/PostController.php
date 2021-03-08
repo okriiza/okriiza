@@ -19,12 +19,12 @@ class PostController extends Controller
 
         // SEOMeta::setTitle('Sharing Pengetahuan, Tips And Trick and Have Fun :) — Okriiza');
         SEOMeta::setDescription('Sharing Pengetahuan, Tips And Trick and Have Fun :)');
-        SEOMeta::addKeyword(['programer', 'pengetahuan', 'tips and trick', 'tutorial', 'python', 'vuejs', 'laravel', 'php', 'code', 'reactjs']);
-        SEOMeta::setCanonical('https://blog.okriiza.test/');
+        SEOMeta::addKeyword(['programer', 'pengetahuan', 'tips and trick', 'tutorial', 'python', 'vuejs', 'laravel', 'php', 'code', 'reactjs','game']);
+        SEOMeta::setCanonical('https://blog.okriiza.my.id/');
 
         OpenGraph::setDescription('Sharing Pengetahuan, Tips And Trick and Have Fun :)');
         OpenGraph::setTitle('Sharing Pengetahuan, Tips And Trick and Have Fun :) — Okriiza');
-        OpenGraph::setUrl('https://blog.okriiza.test/');
+        OpenGraph::setUrl('https://blog.okriiza.my.id/');
         OpenGraph::addProperty('type', 'articles');
         OpenGraph::addProperty('locale', 'id_ID');
         OpenGraph::addProperty('locale:alternate', [ 'en-us']);
@@ -34,7 +34,7 @@ class PostController extends Controller
 
         JsonLd::setTitle('Sharing Pengetahuan, Tips And Trick and Have Fun :) — Okriiza');
         JsonLd::setDescription('Sharing Pengetahuan, Tips And Trick and Have Fun');
-        JsonLd::addImage('https://blog.okriiza.test/themes/frontend/assets/image/logo2.png');
+        JsonLd::addImage('https://blog.okriiza.my.id/themes/frontend/assets/image/logo2.png');
 
         $items = Article::with(['categories','user'])->orderBy('created_at','DESC')->simplePaginate(6);
         $category = Category::all();
@@ -60,14 +60,14 @@ class PostController extends Controller
 
         OpenGraph::setTitle($items->title);
         OpenGraph::setDescription(Str::limit(strip_tags($items->body),250));
-        OpenGraph::setUrl('http://blog.okriiza.test/'.$items->slug);
+        OpenGraph::setUrl('https://blog.okriiza.my.id/'.$items->slug);
         OpenGraph::addProperty('type', 'article');
         OpenGraph::addProperty('locale', 'id_ID');
         OpenGraph::addProperty('locale:alternate', [ 'en-us']);
 
-        OpenGraph::addImage('https://blog.okriiza.test/'.$items->thumbnail);
-        OpenGraph::addImage(['url' => 'https://blog.okriiza.test/'.$items->thumbnail, 'size' => 300]);
-        OpenGraph::addImage('https://blog.okriiza.test/'.$items->thumbnail, ['height' => 300, 'width' => 300]);
+        OpenGraph::addImage('https://blog.okriiza.my.id/'.$items->thumbnail);
+        OpenGraph::addImage(['url' => 'https://blog.okriiza.my.id/'.$items->thumbnail, 'size' => 300]);
+        OpenGraph::addImage('https://blog.okriiza.my.id/'.$items->thumbnail, ['height' => 300, 'width' => 300]);
         
         TwitterCard::setTitle($items->title);
         TwitterCard::setSite('@okriiza');
@@ -75,7 +75,7 @@ class PostController extends Controller
         JsonLd::setTitle($items->title);
         JsonLd::setDescription(Str::limit(strip_tags($items->body),250));
         JsonLd::setType('Article');
-        JsonLd::addImage('https://blog.okriiza.test/'.$items->thumbnail);
+        JsonLd::addImage('https://blog.okriiza.my.id/'.$items->thumbnail);
 
         $recent = Article::limit(6)->orderBy('created_at','DESC')->get();
         $random = Article::inRandomOrder()->limit(6)->get();

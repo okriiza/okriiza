@@ -75,7 +75,7 @@ class ArticleController extends Controller
         ]);
         $text = "<b>New Article !!!</b>\n"
             . "<b>$request->title</b>\n"
-            . "https://okriiza.my.id/article/".Str::slug($request->title)."\n";
+            . "https://blog.okriiza.my.id/".Str::slug($request->title)."\n";
 
         Telegram::sendMessage([
             // 'chat_id' => env('TELEGRAM_CHANNEL_ID', '-1001277850075'),
