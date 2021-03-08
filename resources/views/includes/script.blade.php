@@ -1,9 +1,9 @@
-<script src="{{ url('themes/frontend/assets/libraries/jquery/jquery-3.5.1.slim.min.js')}}"></script>
-<script src="{{ url('themes/frontend/assets/libraries/jquery/popper.min.js')}}"></script>
-<script src="{{ url('themes/frontend/assets/libraries/bootstrap/js/bootstrap.min.js')}}"></script>
-<script src="{{ url('themes/frontend/assets/script/main.js')}}"></script>
-<script src="{{ url('themes/frontend/assets/libraries/aos/js/aos.js')}}"></script>
-<script src="{{ url('themes/frontend/assets/libraries/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
+<script src="https://assets.okriiza.my.id/themes/frontend/assets/libraries/jquery/jquery-3.5.1.slim.min.js"></script>
+<script src="https://assets.okriiza.my.id/themes/frontend/assets/libraries/jquery/popper.min.js"></script>
+<script src="https://assets.okriiza.my.id/themes/frontend/assets/libraries/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://assets.okriiza.my.id/themes/frontend/assets/script/main.js"></script>
+<script src="https://assets.okriiza.my.id/themes/frontend/assets/libraries/aos/js/aos.js"></script>
+<script src="https://assets.okriiza.my.id/themes/frontend/assets/libraries/magnific-popup/jquery.magnific-popup.min.js"></script>
 <script>
    // navbar
    // $(window).scroll(function() {
