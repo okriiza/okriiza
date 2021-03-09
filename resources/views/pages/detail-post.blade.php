@@ -28,7 +28,7 @@
                         <tr>
                            <td rowspan="3" style="width: 10%;">
                               <div class="img-photo-admin">
-                                 <img src="{{ url('themes/frontend/assets/image/photo post.png')}}" alt="okriiza">
+                                 <img src="https://assets.okriiza.my.id/themes/frontend/assets/image/photo post.png" alt="okriiza">
                               </div>
                            </td>
                         </tr>
@@ -125,7 +125,7 @@
                         </div>
                      @empty
                         <div class="text-center mx-auto col-sm-6 col-md-4 mb-2 mt-5 ">
-                           <img src="{{ url('themes/frontend/assets/image/no-data.svg') }}" alt="no-data" style="width: 150px; " height="auto" class="mb-3">
+                           <img src="https://assets.okriiza.my.id/themes/frontend/assets/image/no-data.svg" alt="no-data" style="width: 150px; " height="auto" class="mb-3">
                            <p><small class="font-weight-bold">Data Tidak Ditemukan</small></p>
                         </div>
                      @endforelse

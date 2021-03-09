@@ -16,7 +16,7 @@ Reset Password - Okriiza
                             </div>
                         @endif
                         <h4 class="font-weight-bold mb-5 mt-3 text-center">{{ __('Reset Password') }}</h4>
-                        <img src="{{ url('themes/frontend/assets/image/forgot-password.svg') }}" alt="forgot-password" width="100%" height="200" class="mb-3">
+                        <img src="https://assets.okriiza.my.id/themes/frontend/assets/image/forgot-password.svg" alt="forgot-password" width="100%" height="200" class="mb-3">
                         
                         <form method="POST" action="{{ route('password.email') }}" class="form-signin">
                             @csrf

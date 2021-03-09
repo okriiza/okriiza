@@ -32,7 +32,7 @@
                               <tr>
                                  <td rowspan="3" style="width: 10%;">
                                     <div class="img-photo-admin mr-2">
-                                       <img src="{{ url('themes/frontend/assets/image/photo post1.png')}}">
+                                       <img src="https://assets.okriiza.my.id/themes/frontend/assets/image/photo post1.png">
                                     </div>
                                  </td>
                               </tr>

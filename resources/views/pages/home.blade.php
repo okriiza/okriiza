@@ -17,7 +17,7 @@
                <a href="#about-me" class="btn btn-bg-biru-outline">CONTACT</a>
          </div>
          <div class="col-md-6">
-            <img src="{{ url('themes/frontend/assets/image/header.png')}}" class="img-fluid"  style="width: 540px; height: 350px;">
+            <img src="https://assets.okriiza.my.id/themes/frontend/assets/image/header.png" class="img-fluid"  style="width: 540px; height: 350px;">
          </div>
       </div>
    </div>
@@ -33,7 +33,7 @@
          </div>
          <div class="row align-items-center">
             <div class="col-md-6 mb-3" data-aos="fade-right" data-aos-duration="1500">
-               <img src="{{ url('themes/frontend/assets/image/about.png')}}" class="img-fluid">
+               <img src="https://assets.okriiza.my.id/themes/frontend/assets/image/about.png" class="img-fluid">
             </div>
             <div class="col-md-6">
                <p class="text-justify" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Website ini di buat untuk menampilkan hasil dari project yang pernah saya kerjakan dan terdapat blog yang berisikan artikel, yang mana di artikel tersebut saya akan sharing mengenai hal apa yang saya suka dan saya pelajari.</p>

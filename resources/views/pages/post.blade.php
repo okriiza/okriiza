@@ -81,7 +81,7 @@
                            <tr>
                               <td rowspan="3" style="width: 10%;">
                                  <div class="img-photo-admin mr-2">
-                                    <img src="{{ url('themes/frontend/assets/image/photo post1.png')}}" alt="Admin" loading="lazy" class="lazyload">
+                                    <img src="https://assets.okriiza.my.id/themes/frontend/assets/image/photo post1.png" alt="Admin" loading="lazy" class="lazyload">
                                  </div>
                               </td>
                            </tr>

@@ -10,7 +10,7 @@ Verify Your Email Address - Okriiza
             <div class="card">
                 <div class="card-body">
                     <h4 class="text-center mb-5 font-weight-bold">{{ __('Verify Your Email Address') }}</h4>
-                    <img src="{{ url('themes/frontend/assets/image/mail.svg') }}" alt="email" width="100%" height="200" class="mb-5">
+                    <img src="https://assets.okriiza.my.id/themes/frontend/assets/image/mail.svg" alt="email" width="100%" height="200" class="mb-5">
                     @if (session('resent'))
                         <div class="alert alert-success" role="alert">
                             {{ __('A fresh verification link has been sent to your email address.') }}

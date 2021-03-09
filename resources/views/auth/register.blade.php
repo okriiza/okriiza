@@ -13,7 +13,7 @@
                 <div class="card">
                     <div class="card-body align-items-center">
                         <div class="text-center">
-                            <img src="{{ url('themes/frontend/assets/image/logo2.png') }}" width="100" height="100" alt="Logo Okriiza"
+                            <img src="https://assets.okriiza.my.id/themes/frontend/assets/image/logo2.png" width="100" height="100" alt="Logo Okriiza"
                                 loading="lazy">
                             <p class="text-welcome mt-4">Welcome Back!</p>
                         </div>

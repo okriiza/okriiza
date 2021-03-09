@@ -1,7 +1,7 @@
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
       <div class="sidebar-brand-icon">
-         <img src="{{ url('themes/frontend/assets/image/logo2.png') }}" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+         <img src="https://assets.okriiza.my.id/themes/frontend/assets/image/logo2.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
       </div>
       <div class="sidebar-brand-text mx-3">
          <svg width="90" height="34" viewBox="0 0 145 34" fill="none" xmlns="http://www.w3.org/2000/svg">
