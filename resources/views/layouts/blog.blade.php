@@ -10,6 +10,7 @@
 	<title>@yield('title')</title>
 	@stack('prepend-style')
 	@include('includes.style-blog')
+	@stack('addon-style')
 </head>
 <body>
 

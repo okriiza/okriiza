@@ -1,4 +1,4 @@
-<link href="https://assets.okriiza.my.id/themes/backend/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet" type="text/css">
 <link href="https://assets.okriiza.my.id/themes/backend/css/sb-admin-2.min.css" rel="stylesheet">
 <link href="https://assets.okriiza.my.id/themes/backend/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 <link href="https://assets.okriiza.my.id/themes/backend/vendor/select2/dist/css/select2.min.css" rel="stylesheet">

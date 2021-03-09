@@ -214,3 +214,12 @@
    </section>
 </main>
 @endsection
+
+@push('addon-style')
+<link rel="stylesheet" href="https://assets.okriiza.my.id/themes/backend/vendor/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css">
+@endpush
+
+@push('addon-script')
+<script src="https://assets.okriiza.my.id/themes/backend/vendor/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+@endpush
